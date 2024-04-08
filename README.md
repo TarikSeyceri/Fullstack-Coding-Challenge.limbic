@@ -112,6 +112,10 @@ You can generate it manually using: `npm run swagger-autogen` the output will be
 - Global Overriding console logging functions with Winston Logger
 - Network Logging with Morgan Logger
 
+You can check the logs inside /src/logs/
+- If file ends with -m.log (it is morgan log file)
+- If file ends with -w.log (it is winston log file)
+
 
 ## Data Migration and Seeding
 When you first run the backend, after a successful connection to Database, if this is first time it runs, the backend will automatically runs knex migration to create the database tables then it will seed them automatically with random data using knex seeder and faker.js
