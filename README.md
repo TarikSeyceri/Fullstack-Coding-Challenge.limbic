@@ -1,7 +1,5 @@
 # Limbic Fullstack Code Challenge
 
-Option A - Sharing
-
 # Backend
 
 Backend is developed with (TypeScript, NodeJS, ExpressJS, Jest, PostgreSQL, Redis) Stack
